@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+  font-family: 'Merriweather', serif;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#affirmationContainer {
+  text-align: center;
+}
+
+#affirmationText {
+  font-size: 2rem;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+  cursor: pointer;
+}
+
+.hidden {
+  display: none;
+}
+
+.disco {
+  animation: disco 0.5s infinite;
+}
+
+.pink-bg {
+  background-color: pink;
+}
+
+.ribbon {
+  font-size: 3rem;
+  position: absolute;
+  top: 10px;
+}
+
+.dance {
+  animation: dance 2s infinite;
+}
+
+@keyframes disco {
+  0% {
+    background-color: black;
+  }
+  16.67% {
+    background-color: red;
+  }
+  33.33% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: green;
+  }
+  66.67% {
+    background-color: blue;
+  }
+  83.33% {
+    background-color: indigo;
+  }
+  100% {
+    background-color: violet;
+  }
+}
+
+@keyframes dance {
+  0% {
+    transform: translate(0, 0);
+  }
+  25% {
+    transform: translate(10px, -10px);
+  }
+  50% {
+    transform: translate(-10px, 10px);
+  }
+  75% {
+    transform: translate(10px, 10px);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}

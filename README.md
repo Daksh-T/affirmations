@@ -21,4 +21,4 @@ Date-based affirmations delivery website, with some fun easter eggs!
 4. Put the audio files in the `audio` folder in the format `audio{day}.mp3` where day is the day of the month
 
 ## Credits
-ElevenLabs for the audio files (I simply downloaded random voice previews and used those. Please don't sue me.)
+ElevenLabs for the audio files (I simply downloaded random voice previews and used those; please don't sue me)
